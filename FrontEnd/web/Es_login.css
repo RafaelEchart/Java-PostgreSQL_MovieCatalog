@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("MODELO2.png") ;
+}
+
+
+
+.box{
+  width: 380px;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.9;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  
+}
+
+
+.box .avatar {
+  
+    width: 119px;
+    height: 58px;
+    border-radius: 0%;
+    position: absolute;
+    top: 22px;
+    left: 180px;
+ 
+}
+.box h1{
+    padding-top: 22px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 220px;
+  border-color:#117864 ;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #117864 ;
+}
+.box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.box a:hover {
+  color: #fff;
+}

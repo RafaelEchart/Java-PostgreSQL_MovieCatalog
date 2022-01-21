@@ -1,15 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Movie Catalog - Java (JSP) + PostgreSQL
 
-> Description the project.
+> In this project you will be able to search for movies and see individual information about your favorite ones, create comments, give ratings, create a personal account and much more!
+
+
+<img width="720" alt="portfolio_view" src="./assets/Initial_Page.gif">
+<img width="720" alt="portfolio_view" src="./assets/search.gif">
+<img width="720" alt="portfolio_view" src="./assets/login_page.png">
+<img width="720" alt="portfolio_view" src="./assets/signin_page.png">
+<img width="720" alt="portfolio_view" src="./assets/posgresql_database.png">
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Java
+- JSP
+- PostgreSQL
+- PGAdmin 4
+- HTML + CSS + JavaScript
 
 ## Live Demo (if available)
 
