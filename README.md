@@ -20,6 +20,7 @@
 - JSP
 - PostgreSQL
 - PGAdmin 4
+- [IMBD-DATA clone API](https://rapidapi.com/SAdrian/api/data-imdb1/)
 - HTML + CSS + JavaScript
 
 
