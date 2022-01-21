@@ -63,7 +63,7 @@ To get a local copy up and running follow these simple example steps.
 <img width="1020" alt="portfolio_view" src="./assets/conectionBackendFrontEnd.png">
 
 
-### Run tests
+### Run
 
 - The **Index.jsp** File is the starting point of the project. Make sure you run this file for the full experience. 
 
