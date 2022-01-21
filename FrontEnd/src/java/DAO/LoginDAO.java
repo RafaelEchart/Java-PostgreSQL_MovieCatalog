@@ -47,7 +47,7 @@ public class LoginDAO {
         String correo="";
         Object[] favo=new Object[20];
         try{
-        cn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/login","postgres","@rechart23");
+        cn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/login","postgres","123");
        sql = "select * from usrcon where usuario='"+um.getUsuario()+"' AND contrasena=MD5('"+um.getCont()+"')";
            System.out.println(sql);
        st = cn.createStatement();

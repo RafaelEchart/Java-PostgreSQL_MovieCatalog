@@ -4,6 +4,7 @@
 
 > In this project you will be able to search for movies and see individual information about your favorite ones, create comments, give ratings, create a personal account and much more!
 
+> Pair-Programming was a big part of this project, from the setup to the development. Cheers to all my partners!
 
 <img width="720" alt="portfolio_view" src="./assets/Initial_Page.gif">
 <img width="720" alt="portfolio_view" src="./assets/search.gif">
@@ -21,10 +22,6 @@
 - PGAdmin 4
 - HTML + CSS + JavaScript
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
@@ -36,31 +33,51 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+- Install [JAVA](https://java.com/en/)
+- Install [PostgreSQL](https://www.postgresql.org/) V13 or Higher
+- Install [PG Admin 4](https://www.pgadmin.org/download/) to manage posgreSQL faster
+- Install [Netbeans 8.2 or higher](https://netbeans.apache.org/download/index.html)
+- Install GlassFish Server inside Netbeans.
 
-### Install
+### FrontEnd Setup
 
-### Usage
+- Download the [Files in the FrontEnd Folder](./FrontEnd)
+- Create a folder and paste the files inside.
+- In Netbeans, **Open a new project**
+- Inside the **WEB-INF** folder you will see the index.jsp file.
+- Run the **index.jsp file**
+
+
+### BackEnd Setup
+
+- Open the PG admin 4 and create a new Database called **login** (You can change this if you want, but in the project you will need to change it too)
+- Once the DB is create right click -> Restore the file located in the [BackendEnd Folder](./BackEnd)
+- Make sure the database is running. 
+
+### Connection FrontEnd and Backend Setup
+
+- There is a lot of queries to connect the front with the backend, in each query the database name should be the same as the one you created in PG admin 4.
+- There is also a field next to the DB set as "123", here you should type your database password. 
+- Make sure all of the connection queries are propertly setup, JUST CHANGE THE CONECTION NOT THE QUERIES. 
+
+<img width="1020" alt="portfolio_view" src="./assets/conectionBackendFrontEnd.png">
+
 
 ### Run tests
 
-### Deployment
-
+- The **Index.jsp** File is the starting point of the project. Make sure you run this file for the full experience. 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Rafael Echart**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@rafaelechart](https://github.com/rafaelechart)
+- Twitter: [@rafaechart](https://twitter.com/rafaechart)
 
-👤 **Author2**
+👤 **Jose Garcia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Soreons](https://github.com/Soreons)
 
 ## 🤝 Contributing
 
@@ -74,9 +91,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- TES university
+- Rafael Echart
+- Jose Garcia
 
 ## 📝 License
 

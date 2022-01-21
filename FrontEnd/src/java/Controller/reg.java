@@ -47,7 +47,7 @@ public class reg extends HttpServlet {
       String pass2=request.getParameter("txtPass2");
       String Activado="A";
       try{
-      cnx=DriverManager.getConnection("jdbc:postgresql://localhost:5432/login","postgres","@rechart23");   
+      cnx=DriverManager.getConnection("jdbc:postgresql://localhost:5432/login","postgres","123");   
       sta=cnx.createStatement();
       rs=sta.executeQuery("select COUNT(usuario) as ct from usrcon where usuario='"+usr+"'");
       while (rs.next()){
@@ -72,7 +72,7 @@ public class reg extends HttpServlet {
       //Conexion
 
       try{
-      cnx=DriverManager.getConnection("jdbc:postgresql://localhost:5432/login","postgres","@rechart23");   
+      cnx=DriverManager.getConnection("jdbc:postgresql://localhost:5432/login","postgres","123");   
       sta=cnx.createStatement();
       sta.executeUpdate("insert into usrcon values('"+usr+"',MD5('"+pass+"'),'"+Activado+"','"+nom+"','"+apellido+"','"+correo+"','"+"')");
       request.getRequestDispatcher("index.jsp").forward(request, response);
