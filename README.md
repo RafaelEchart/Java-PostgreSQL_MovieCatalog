@@ -9,6 +9,7 @@
 <img width="720" alt="portfolio_view" src="./assets/search.gif">
 <img width="720" alt="portfolio_view" src="./assets/login_page.png">
 <img width="720" alt="portfolio_view" src="./assets/signin_page.png">
+<img width="275" alt="portfolio_view" src="./assets/RATINGS.png">
 <img width="720" alt="portfolio_view" src="./assets/posgresql_database.png">
 
 
